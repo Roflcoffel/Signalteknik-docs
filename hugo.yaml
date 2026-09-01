@@ -1,4 +1,4 @@
-baseURL: [https://roflcoffel.github.io/Signalteknik-docs/](https://roflcoffel.github.io/Signalteknik-docs/)
+baseURL: 'https://roflcoffel.github.io/Signalteknik-docs/'
 title: Documentation
 theme: hugo-book
 

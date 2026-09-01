@@ -4,8 +4,8 @@ theme: hugo-book
 
 copyright: "This is a copyright placeholder"
 
-relativeURLs = true
-canonifyURLs = false
+relativeURLs: true
+canonifyURLs: false
 
 # Book configuration
 disablePathToLower: true

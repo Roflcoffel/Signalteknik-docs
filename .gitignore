@@ -32,6 +32,5 @@ go.work.sum
 # .vscode/
 
 # Hugo
-public/
 resources/
 .hugo_build.lock

@@ -1,8 +1,8 @@
-baseURL: http://0.0.0.0:1313/
+baseURL: [https://roflcoffel.github.io/Signalteknik-docs/](https://roflcoffel.github.io/Signalteknik-docs/)
 title: Documentation
 theme: hugo-book
 
-copyright: "This is a copyright placeholder"
+copyright: ""
 
 # Book configuration
 disablePathToLower: true

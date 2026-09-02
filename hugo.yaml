@@ -1,5 +1,5 @@
 baseURL: http://0.0.0.0:1313/
-title: Documentation
+title: "Allt Om Signalteknik"
 theme: hugo-book
 
 copyright: "This is a copyright placeholder"
@@ -42,17 +42,17 @@ markup:
 
 menu:
   home:
-    - name: "Documentation"
+    - name: "Praktisk Info"
       pageRef: "/docs/"
       weight: 10
     - name: "Github"
-      url: "https://github.com/alex-shpak/hugo-book/"
+      url: "https://github.com/roflcoffel/Signaltekniker-docs/"
       weight: 20
 
   # before: []
   after:
     - name: "Github"
-      url: "https://github.com/alex-shpak/hugo-book"
+      url: "https://github.com/roflcoffel/Signaltekniker-docs/"
       weight: 10
 
 taxonomies:
@@ -61,7 +61,7 @@ taxonomies:
 params:
   # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences
-  BookTheme: "light"
+  BookTheme: "catppuccin-dark"
 
   # (Optional, default none) Controls table of contents visibility on right side of pages.
   # Start and end levels can be controlled with markup.tableOfContents setting.
@@ -79,7 +79,7 @@ params:
   # (Optional, default docs) Specify root page to render child pages as menu.
   # Page is resoled by .GetPage function: https://gohugo.io/functions/getpage/
   # For backward compatibility you can set '*' to render all sections to menu. Acts same as '/'
-  # BookSection: docs
+  BookSection: "docs"
 
   # (Optional, default none) Set template for commit link for the page. Requires enableGitInfo.
   # When set enabled 'Last Modified' and a link to the commit in the footer of the page.

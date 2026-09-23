@@ -1,6 +1,6 @@
 ---
-title: "Second Section"
-weight: 2
+title: "Linjeblock"
+weight: 5
 params:
   bookFlatSection: true
 ---

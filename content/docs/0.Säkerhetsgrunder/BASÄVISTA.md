@@ -1,37 +1,40 @@
-# Säkerhets Marginaler 
+---
+title: "BASÄVISTA"
+weight: 2
+---
 
-En tabell med olika marignalvärden inom järnvägen
+# Säkerhets Marginaler 
 
 Område | Värde
 -------------|---------
-**Spårområde** | 4m från rälsen \[1\]
-**Säkerhetszonen** | 2.2m från rälsen \[2\]
+**Spårområde** | 4m från rälsen [1](#noteringar)
+**Säkerhetszonen** | 2.2m från rälsen [2](#noteringar)
 **Närområdet** | 1,4m från spänningssatt anläggningsdel.
 **Riskområdet** | 0,4m från spänningssatt anläggningsdel.
 **Utrymningstid Arbete** | 15 sekunder.
 **Utrymningstid Egenförflyttning** | 10 sekunder.
-**Faktisk Utrymningstid** | Den tid det tar att utrymma säkerhetszonen. \[3\]
-**Uträkning av siktsträcka** | Hastigheten / 3,6 * (Utrymningstid \[4\] + Faktisk Utrymningstid.)
-**Gräns För Tågvarning** | 150km/h och längre. \[5\]
+**Faktisk Utrymningstid** | Den tid det tar att utrymma säkerhetszonen. [3](#noteringar)
+**Uträkning av siktsträcka** | Hastigheten / 3,6 * (Utrymningstid [4](#noteringar) + Faktisk Utrymningstid.)
+**Gräns För Tågvarning** | 150km/h och längre. [5](#noteringar)
 
-- \[1\]: är egentligen från närmaste spänningsatta object.
-- \[2\]: I säkerhetszonen får max 20L brandfarlig vätska och max 120kg med arbetsredskap finnas, Det är inte tillåtet att vistas i säkerhetszonen när fordon passerar.
-- \[3\]: man gör en test utrymning för att se hur lång tid det *faktiskt* tar.
-- \[4\]: vid *Arbete* eller under *Egenförflyttning*.
-- \[5\]: samt att sikten är god och inom den uträknade siktsträckan.
+## Olika Roller
 
-Roler | Namn
+Roller | Namn
 ---------|---------
 **Skydds-och Säkerhetsledare** | Ansvarar över arbetsmiljön på arbetsplatsen.
 **Tillsyningsman** | Ansvarar över skyddsåtgärderna på arbetsplatsen.
 **Tågvarnare** | Varnar arbetsplatsen om ankommande tåg.
 **Elsäkerhetsledare** | Ansvarar för elsäkerhetsåtgärderna vid arbete där elektrisk risk finns.
 
+## Gränsområden
+
 Platsnamn | Förklaring
 ----------------|----------------
 **Driftplats** | Avgränsar *linjen* är en del som övervakas av tågklarerare, är kontrollerat av ett ställverk, och kan användas som en mötesplats för tåg.
 **Hållställe** | Är en del av *driftplatsen* där passagerare kan gå på/av tåg.
 **Linjen** | Untanför *driftplats* gränser, och är banan mellan två *driftplats*
+
+## Spårområds Regler
 
 **Spårområde Regler**
 - Arbete och besök i spårområdet ska SoS-planeras.
@@ -48,6 +51,8 @@ Innan Elsäkerhetsledare gett besked om att arbetet får inledas, vid identifier
 - Utföra arbete som innebär risk för att komma in i närområdet med verktyg, kroppsdel eller annat ledande föremål.
 
 En flyttbar stege som är längre än 2 meter och som hanteras inom 4 meter från en högspänningsanläggning ska vara av icke-ledande material samt vara försedd med en varningsskylt avseende elfara.
+
+## Olika Risker
 
 **Att tänka på när du beträder spårområdet**
 - Största tillåtna hastighet på spåret.
@@ -66,14 +71,7 @@ En flyttbar stege som är längre än 2 meter och som hanteras inom 4 meter frå
 - På flerspår kan tåg även växla in på ditt spår.
 - Tänk alltid på din och andras säkerhet när du vistas i spårmiljö!
 
-**Bromssträcka för ett normalt persontåg**
-Hastighet | Bromssträcka
----------------|---------------------
-100 km/h | 550m
-120 km/h | 800m
-150 km/h | 1200m
-200 km/h | 2500m
-
+# Hand- och Ljudsignaler
 **Ljudsignaler**
 Meddelande | Signal
 ------------------|----------
@@ -89,14 +87,29 @@ Mot signaltekniker använder lokförare oftast ljussignal som **Uppfattat** ist�
 **Klart** - Arm ut åt sidan (eller lampa vid midjehöjd)
 **Stopp** - Vifta med armar uvanför huvud (eller röd lampa upp och ner vid kroppen)
 
+## Skyddsformer
 **SADEL - Skydds former på spåret**
 På svensk järnväg har vi SADEL skydd.
 Skydd | Förklaring
-----------|-----------------
+--------|---------
 S-Skydd | Signaltekniker specifict skydd, A-skydd kan göras om till S-skydd, tillåter trafik på räls men under stopanmälan
 A-Skydd | Kortlutet spår, används på driftplatser, arbetsområdet är mellan två kortslutna punkter, TSM kortsluter
 D-Skydd | Minns ej, men krävs under större arbeten när, en huvud tillsyningsman leder skyddet, tunga maskiner används på spår
 E-Skydd | Minns ej
-L-Skydd | Är ett skydd ute på linjen, här behöver TSM bara kortsluta för att visa position och tågklareraren låser då linjen. \[Linjeblock\]
+L-Skydd | Är ett skydd ute på linjen, här behöver TSM bara kortsluta för att visa position och tågklareraren [låser](../5.Linjeblock/Reläer.md) då linjen.
 
-- \[Linjeblock\] Länk till linjeblock där relät som låser linje är nämnd.
+## Bromssträcka
+**Bromssträcka för ett normalt persontåg**
+Hastighet | Bromssträcka
+---------|-------
+100 km/h | 550m
+120 km/h | 800m
+150 km/h | 1200m
+200 km/h | 2500m
+
+# Noteringar
+- \[1\]: är egentligen från närmaste spänningsatta object.
+- \[2\]: I säkerhetszonen får max 20L brandfarlig vätska och max 120kg med arbetsredskap finnas, Det är inte tillåtet att vistas i säkerhetszonen när fordon passerar.
+- \[3\]: man gör en test utrymning för att se hur lång tid det *faktiskt* tar.
+- \[4\]: vid *Arbete* eller under *Egenförflyttning*.
+- \[5\]: samt att sikten är god och inom den uträknade siktsträckan.
